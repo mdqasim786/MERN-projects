@@ -1,38 +1,16 @@
-🎯 MERN Projects
+# React + Vite
 
-A collection of frontend projects created as part of my web development journey. Each project focuses on building real-world UIs using HTML, CSS, and JavaScript — designed to strengthen my skills in structure, styling, and responsiveness.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🚀 Included Projects
-🎬 Netflix Clone
+Currently, two official plugins are available:
 
-Fully recreated the Netflix landing page using HTML & CSS.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Focused on layout design, responsiveness, and pixel-perfect UI replication.
+## React Compiler
 
-Demonstrates attention to design details and professional front-end structuring.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-🎧 Spotify Clone
+## Expanding the ESLint configuration
 
-Designed Spotify’s homepage layout and style using HTML & CSS.
-
-Emphasis on grid/flexbox design, responsive behavior, and clean structure.
-
-Built to improve visual consistency and responsive design practice.
-
-🧠 Key Learnings
-
-Improved skills in HTML semantics and modern CSS layout systems (Flexbox & Grid).
-
-Gained deeper understanding of page responsiveness and UI replication.
-
-Strengthened design accuracy and attention to detail for production-quality work.
-
-🧰 Tech Stack
-
-HTML | CSS | JavaScript | Git | GitHub
-
-📌 Future Additions
-
-Plan to include JavaScript interactivity to enhance clone functionality.
-
-Continue expanding this repo with more real-world clone projects.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
